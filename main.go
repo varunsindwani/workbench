@@ -15,8 +15,8 @@ limitations under the License.
 */
 package main
 
-import "github.com/varunsindwani/workbench/cmd"
+import "./cmd"
 
 func main() {
-  cmd.Execute()
+	cmd.Execute()
 }
