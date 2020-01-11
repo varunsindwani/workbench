@@ -14,7 +14,7 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "workbench",
+	Use:   "wb",
 	Short: "A CLI tool to help manage your workspace",
 	Long:  `A CLI tool to help manage your workspace`,
 }
